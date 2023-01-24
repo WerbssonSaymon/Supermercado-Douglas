@@ -1,0 +1,73 @@
+@charset "UTF-8"
+* {
+	box-sizing: border-box; /* O PADDING NAO AUMENTA O TAMANHO DOS OBJETOS */
+} 
+a {
+	text-decoration: none;
+	color: White;
+}
+html, body {  /*BODY PARADO NA TELA*/
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+form { /*FORMULARIO CENTRALIZADO*/
+	width: 50%;
+	height: 75%;
+	padding: 2%;
+	margin: auto;
+}
+fieldset {
+	text-align: center;
+	background-color: LightGray;
+	border: 4px black solid;
+}
+h1#TituloForm {
+	text-align: center;
+	font-family: arial;
+	font-size: 30pt;
+	color: Firebrick;
+	padding-top: 2%;
+}
+input {
+	background-color: white;
+	color: black;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 26pt;
+	margin: 40px 50px 30px 50px;
+	border: 4px black solid;
+}
+p#TituloImprimir {
+	text-align: center;
+	font-family: arial;
+	font-size: 20pt;
+	color: Firebrick;
+}
+button {
+	font-family: arial;
+	font-weight: normal;
+	font-size: 18pt;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 10%;
+	padding: 15px;
+	background-color: Firebrick;
+	color: White;
+}
+footer { /*FOOTER FIXADO NO FINAL DO BODY*/
+	padding: 30px;
+	margin-top: 1%;
+	width: 100%;
+	background-color: Firebrick;
+	position: relative;
+	bottom: 0;
+}
+p.Lfooter {
+	color: white;
+	font-family: arial;
+	font-weight: normal;
+	font-size: 12pt;
+	text-align: center;
+}
