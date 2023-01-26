@@ -4,7 +4,7 @@
 } 
 a {
 	text-decoration: none;
-	color: White;
+	color: White; 
 }
 html, body {  /*BODY PARADO NA TELA*/
 	margin: 0;
@@ -36,22 +36,26 @@ input {
 	font-family: arial;
 	font-weight: normal;
 	font-size: 26pt;
-	margin: 40px 50px 30px 50px;
+	margin: 30px 50px 30px 50px;
 	border: 4px black solid;
 }
-p#TituloImprimir {
+button#Imprimir {
 	text-align: center;
 	font-family: arial;
-	font-size: 20pt;
-	color: Firebrick;
+	font-size: 16pt;
+	color: White;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 15px;
+	background-color: Firebrick;
 }
 button {
 	font-family: arial;
-	font-weight: normal;
 	font-size: 18pt;
 	text-align: center;
+	font-weight: normal;
 	margin-top: 1%;
-	margin-bottom: 10%;
+	margin-bottom: 20px;
 	padding: 15px;
 	background-color: Firebrick;
 	color: White;
