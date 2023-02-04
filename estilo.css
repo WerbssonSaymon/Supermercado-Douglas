@@ -12,6 +12,23 @@ html, body {  /*BODY PARADO NA TELA*/
 	height: auto;
 	width: auto;
 }
+
+/* CSS DO INDEX.HTML */
+
+button.botaoIndex {
+	width: 100%;
+	height: auto;
+	background-color: Firebrick;
+	margin: 0;
+	padding: 12%;
+	text-align: center;
+	font-family: arial;
+	font-size: 38pt;
+	color: White;
+	cursor: pointer;
+}
+
+/* CSS DO FORMULARIO DO COMPRA.HTML*/
 form { /*FORMULARIO CENTRALIZADO*/
 	width: 50%;
 	height: 75%;
@@ -39,26 +56,34 @@ input {
 	margin: 30px 50px 30px 50px;
 	border: 4px black solid;
 }
+p {
+	text-align: center;
+	font-family: arial;
+	font-size: 18pt;
+	color: Firebrick;
+}
 button#Imprimir {
 	text-align: center;
 	font-family: arial;
 	font-size: 16pt;
 	color: White;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
 	padding: 15px;
 	background-color: Firebrick;
+	cursor: pointer;
 }
-button {
+button#Concluir {
 	font-family: arial;
 	font-size: 18pt;
 	text-align: center;
 	font-weight: normal;
-	margin-top: 1%;
-	margin-bottom: 20px;
-	padding: 15px;
+	margin-top: 0,5%;
+	margin-bottom: 10px;
+	padding: 8px;
 	background-color: Firebrick;
 	color: White;
+	cursor: pointer;
 }
 footer { /*FOOTER FIXADO NO FINAL DO BODY*/
 	padding: 30px;

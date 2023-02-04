@@ -1,0 +1,37 @@
+@charset "UTF-8"
+
+/* CSS DO COMPROVANTE.HTML*/
+
+* {
+	box-sizing: border-box; /* O PADDING NAO AUMENTA O TAMANHO DOS OBJETOS */
+} 
+a {
+	text-decoration: none;
+	color: White; 
+}
+html, body {  /*BODY PARADO NA TELA*/
+	margin: 0;
+	padding: 0;
+	height: auto;
+	width: auto;
+}
+h1.tituloComprovante {
+	text-align: center;
+	font-family: arial;
+	font-size: 26pt;
+	color: Black;
+}
+p.paragrafoComprovante {
+	text-align: center;
+	font-family: arial;
+	font-size: 20pt;
+	color: Black;
+}
+table {
+	border: 0.5px black solid;
+	display: block;
+	margin: 1px 25%;
+	padding: 2px;
+	height: auto;
+	width: auto;
+}
