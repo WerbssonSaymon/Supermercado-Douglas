@@ -15,23 +15,48 @@ html, body {  /*BODY PARADO NA TELA*/
 	height: auto;
 	width: auto;
 }
+div#papelComprovante { 
+	background-color: Khaki;
+	margin: auto 25%;
+}
 h1.tituloComprovante {
 	text-align: center;
 	font-family: arial;
 	font-size: 26pt;
 	color: Black;
 }
+p.miniTituloComprovante {
+	text-align:center;
+	font-family: arial;
+	font-size: 22pt;
+	color: Black;
+	margin: auto;
+}
 p.paragrafoComprovante {
-	text-align: center;
+	text-align: left;
 	font-family: arial;
 	font-size: 20pt;
 	color: Black;
 }
+p.footerComprovante {
+	text-align:center;
+	font-family: arial;
+	font-size: 10pt;
+	color: Black;
+	padding-bottom: 20px;
+}
 table {
-	border: 0.5px black solid;
+	border: 0.5px black hidden;
 	display: block;
-	margin: 1px 25%;
+	margin: 1px 33%;
 	padding: 2px;
 	height: auto;
-	width: auto;
+	width: 40%;
 }
+th, td {
+	border: 0.5px black solid;
+	width: 100%;
+	padding: 1px 60px 1px 10px;
+	margin: auto;
+}
+

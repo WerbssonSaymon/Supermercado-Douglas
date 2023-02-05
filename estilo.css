@@ -15,19 +15,25 @@ html, body {  /*BODY PARADO NA TELA*/
 
 /* CSS DO INDEX.HTML */
 
-button.botaoIndex {
+button.botaoIndex { /*Divisão da tela em botões*/
 	width: 100%;
 	height: auto;
 	background-color: Firebrick;
-	margin: 0;
-	padding: 12%;
-	text-align: center;
-	font-family: arial;
-	font-size: 38pt;
-	color: White;
+	margin: auto;
+	padding: 2% 5%; /*12*/
 	cursor: pointer;
 }
-
+img.imagemIndex {
+	width: 250px;
+	height: 250px;
+}
+h1.tituloIndex { /*Palavra a baixo da imagem*/
+	text-align: center;
+	font-family: arial;
+	font-size: 30pt;
+	color: White;
+	padding-top: 0;
+}
 /* CSS DO FORMULARIO DO COMPRA.HTML*/
 form { /*FORMULARIO CENTRALIZADO*/
 	width: 50%;
@@ -88,12 +94,13 @@ button#Concluir {
 footer { /*FOOTER FIXADO NO FINAL DO BODY*/
 	padding: 30px;
 	margin-top: 1%;
+	margin-bottom: 1%;
 	width: 100%;
 	background-color: Firebrick;
 	position: relative;
 	bottom: 0;
 }
-p.Lfooter {
+p.compraFooter {
 	color: white;
 	font-family: arial;
 	font-weight: normal;
